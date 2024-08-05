@@ -1,0 +1,112 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #433D8B;
+
+    background-repeat: no-repeat;
+}
+
+
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem;
+    border-radius: 5px;
+    width: max-content;
+    flex-wrap: wrap;
+    background-color: #021526;
+}
+
+.welcome
+{
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+}
+
+.signin , .account
+{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+    color: white;
+
+}
+
+
+
+.inputs
+{
+  
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.616);
+    flex-wrap: wrap;
+    color: white;
+
+
+}
+
+[type="email"],[type="password"]
+{
+    width: 20rem;
+    border: 1px solid rgba(8, 8, 8, 0.308);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 1rem;
+    color: white;
+    
+}
+.text
+{
+    margin: 1rem;
+
+}
+input[type="checkbox"]
+{
+    margin: 1rem;
+}
+.check
+{
+    color: white;
+}
+
+.btn
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+button
+{
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 5px;
+
+}
+.recover,.login
+{
+    margin: 0.4rem;
+}
+.recover
+{
+    background-color: transparent;
+}
+.login
+{
+    background-color: rgba(44, 44, 231, 0.829);
+}
+.login a
+{
+    color: white;
+
+}
